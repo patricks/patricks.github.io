@@ -2,6 +2,7 @@ html {
 	background: #3cce87;
 	color: white;
 	font-family: 'Raleway', sans-serif;
+	font-size: clamp(10px, 1.2vw + 7px, 30px);
 	text-transform: uppercase;
 }
 
@@ -13,8 +14,8 @@ h1 {
 	background: #50d394;
 	border-radius: 0.3rem;
 	padding: 0.3rem 0.5rem;
-	font-size: 2.5rem;
-	line-height: 2.5rem;
+	font-size: clamp(2.2rem, 1.6rem + 1.8vw, 2.5rem);
+	line-height: 1;
 	margin: 0;
 }
 
@@ -29,7 +30,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 5rem 1rem 1rem;
+	padding: clamp(3rem, 10vh, 5rem) 1rem 1rem;
 	box-sizing: border-box;
 }
 
@@ -40,7 +41,7 @@ a {
 }
 
 #bop {
-	margin-top: 0.8rem;
+	margin-top: clamp(0.7rem, 0.5rem + 0.5vw, 0.8rem);
 	font-size: 0.85rem;
 }
 
@@ -64,7 +65,7 @@ a {
 }
 
 #fop {
-	margin-top: 0.8rem;
+	margin-top: clamp(0.7rem, 0.5rem + 0.5vw, 0.8rem);
 	transform: scale(0.75, 0.75);
 }
 
@@ -87,35 +88,5 @@ a {
 	#fop img {
 		height: 3rem;
 		margin: 0 1rem;
-	}
-}
-
-@media (min-width: 320px) {
-	html {
-		font-size: 10px;
-	}
-}
-
-@media (min-width: 320px) and (orientation: landscape) {
-	html {
-		font-size: 15px;
-	}
-}
-
-@media (min-width: 589px) {
-	html {
-		font-size: 20px;
-	}
-}
-
-@media (min-width: 733px) {
-	html {
-		font-size: 25px;
-	}
-}
-
-@media (min-width: 870px) {
-	html {
-		font-size: 30px;
 	}
 }
