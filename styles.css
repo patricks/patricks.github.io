@@ -1,6 +1,6 @@
 html {
-	background: #3cce87;
-	color: white;
+	background: #f4fbf7;
+	color: #1f3a2e;
 	font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
 	font-size: clamp(10px, 1.2vw + 7px, 30px);
 	text-transform: uppercase;
@@ -12,7 +12,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #1f3a2e;
 }
 
 .page {
@@ -35,10 +35,18 @@ a {
 	text-align: center;
 }
 
+.eyebrow {
+	margin: 0 0 0.5rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.06em;
+	text-transform: none;
+}
+
 h1 {
-	background: #50d394;
+	background: #3cce87;
 	border-radius: 0.3rem;
 	padding: 0.3rem 0.5rem;
+	color: #ffffff;
 	font-size: clamp(2.2rem, 1.6rem + 1.8vw, 2.5rem);
 	line-height: 1;
 	margin: 0;
@@ -71,7 +79,12 @@ h1 {
 
 .role-list li + li::before {
 	content: " | ";
-	color: white;
+	color: #2ea86d;
+}
+
+a:hover,
+a:focus-visible {
+	color: #2ea86d;
 }
 
 #fop {
@@ -83,11 +96,22 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 0.6rem;
+}
+
+#fop a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.8rem;
+	height: 2.8rem;
+	border-radius: 999px;
+	background: #2ea86d;
 }
 
 #fop img {
 	height: 2rem;
-	margin: 0 0.6rem;
+	margin: 0;
 }
 
 @media (max-width: 321px) {
@@ -97,6 +121,10 @@ h1 {
 
 	#fop img {
 		height: 3rem;
-		margin: 0 1rem;
+	}
+
+	#fop a {
+		width: 4rem;
+		height: 4rem;
 	}
 }
