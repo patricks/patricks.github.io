@@ -1,7 +1,7 @@
 html {
 	background: #3cce87;
 	color: white;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
 	font-size: clamp(10px, 1.2vw + 7px, 30px);
 	text-transform: uppercase;
 }
