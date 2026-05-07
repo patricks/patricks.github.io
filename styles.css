@@ -10,15 +10,6 @@ body {
 	margin: 0;
 }
 
-h1 {
-	background: #50d394;
-	border-radius: 0.3rem;
-	padding: 0.3rem 0.5rem;
-	font-size: clamp(2.2rem, 1.6rem + 1.8vw, 2.5rem);
-	line-height: 1;
-	margin: 0;
-}
-
 a {
 	text-decoration: none;
 	color: white;
@@ -38,6 +29,25 @@ a {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+}
+
+.hero-copy {
+	text-align: center;
+}
+
+h1 {
+	background: #50d394;
+	border-radius: 0.3rem;
+	padding: 0.3rem 0.5rem;
+	font-size: clamp(2.2rem, 1.6rem + 1.8vw, 2.5rem);
+	line-height: 1;
+	margin: 0;
+}
+
+.intro {
+	margin: 0.75rem 0 0;
+	font-size: 0.7rem;
+	letter-spacing: 0.04em;
 }
 
 #bop {
