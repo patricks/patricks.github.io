@@ -1,49 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <title>@paaast</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta name="description" content="Patrick Steiner's personal homepage with links to GitHub, OpenStreetMap, geocaching, and Mastodon.">
-  <meta name="theme-color" content="#3cce87">
-  <link rel="canonical" href="https://patrick.helmsdeep.at/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="@paaast">
-  <meta property="og:title" content="@paaast">
-  <meta property="og:description" content="Patrick Steiner's personal homepage with links to GitHub, OpenStreetMap, geocaching, and Mastodon.">
-  <meta property="og:url" content="https://patrick.helmsdeep.at/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="@paaast">
-  <meta name="twitter:description" content="Patrick Steiner's personal homepage with links to GitHub, OpenStreetMap, geocaching, and Mastodon.">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css" type="text/css">
-</head>
-
-<body>
-  <main class='page'>
-    <header class='hero' id='top'>
-      <div class='hero-copy'>
-        <p class='eyebrow'>Hi, my name is</p>
-        <h1>Patrick</h1>
-        <p class='intro'>I build software, map places, and look for caches.</p>
-      </div>
-    </header>
-    <section aria-label='Profile' id='bop'>
-      <ul class='role-list'>
-        <li><a href='https://github.com/patricks'>Developer</a></li>
-        <li><a href='https://www.openstreetmap.org/user/paaast'>OpenStreetMapper</a></li>
-        <li><a href='https://www.geocaching.com/profile/?guid=2a3fdf83-3c1e-40fe-af44-038f45a6ae3f'>Geocacher</a></li>
-      </ul>
-    </section>
-    <nav aria-label='Social links' id='fop'>
-      <ul class='icon-list'>
-        <li><a href='https://github.com/patricks' aria-label='GitHub'><img src='img/github.png' alt=''></a></li>
-        <li><a href='https://www.geocaching.com/profile/?guid=2a3fdf83-3c1e-40fe-af44-038f45a6ae3f' aria-label='Geocaching'><img src='img/geocaching.png' alt=''></a></li>
-        <li><a href='https://mastodon.social/@paaast' rel='me' aria-label='Mastodon'><img src='img/mastodon.png' alt=''></a></li>
-      </ul>
-    </nav>
-  </main>
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrick Steiner</title>
+    <meta name="description" content="Patrick Steiner builds software, maps places, and looks for geocaches.">
+    <meta name="theme-color" content="#1d2938">
+    <link rel="canonical" href="https://patrick.helmsdeep.at/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patrick Steiner">
+    <meta property="og:title" content="Patrick Steiner">
+    <meta property="og:description" content="Patrick Steiner builds software, maps places, and looks for geocaches.">
+    <meta property="og:url" content="https://patrick.helmsdeep.at/">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header><span>@paaast</span><span>PROFILE.TXT</span></header>
+      <section class="terminal" aria-labelledby="name">
+        <p><span class="prompt">patrick@internet:~$</span> whoami</p>
+        <h1 id="name">Patrick Steiner<span class="cursor">_</span></h1>
+        <p class="comment"># I build software, map places, and look for geocaches.</p>
+      </section>
+      <nav class="commands" aria-label="Profiles">
+        <a href="https://github.com/patricks"><span>01</span><code>open --github</code><strong>Developer</strong></a>
+        <a href="https://www.openstreetmap.org/user/paaast"><span>02</span><code>open --map</code><strong>OpenStreetMapper</strong></a>
+        <a href="https://www.geocaching.com/profile/?guid=2a3fdf83-3c1e-40fe-af44-038f45a6ae3f"><span>03</span><code>open --geocache</code><strong>Geocacher</strong></a>
+      </nav>
+      <footer><span>STATUS: STAY HUNGRY. STAY FOOLISH.</span><a href="https://mastodon.social/@paaast" rel="me">mastodon.social/@paaast</a></footer>
+    </main>
+  </body>
 </html>
